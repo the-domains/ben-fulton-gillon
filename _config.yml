@@ -1,29 +1,41 @@
-name: Ben Fulton-Gillon
-favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.43843
 title: Ben Fulton-Gillon
 cta:
-  domain: null
-  bucket: null
   version: null
+  bucket: null
+  domain: null
+layout_spectrum: 1
+favicon: null
+name: Ben Fulton-Gillon
+purpose: []
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
 color:
+  brandStrength: 0.375
+  lightness: 0.6765957
+  saturation: 0.125
+  rhythmicContrast: 0.75
   brandColors:
     - '#b49d67'
     - '#978150'
     - '#9c5329'
     - '#6d371b'
     - '#cd7741'
-  brandStrength: 0.375
-  lightness: 0.75
-  saturation: 0.125
-  rhythmicContrast: 0.75
-purpose: []
+typography_spectrum: 0.43843
